@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using ProvaTp3Teste.Mapping;
 using ProvaTp3Teste.Model;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,7 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<AgendamentoDbContext>(opt =>
     opt.UseSqlServer("Data Source=DESKTOP-0PVID37\\SQLEXPRESS;Initial Catalog=nfl;Integrated Security=True;Encrypt=False"));
 builder.Services.AddSwaggerGen();
-builder.Services.AddAutoMapper(typeof(EntitiesToDTOMappingProfile));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
