@@ -1,0 +1,6 @@
+@ProvaTp3Teste_HostAddress = http://localhost:5124
+
+GET {{ProvaTp3Teste_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
