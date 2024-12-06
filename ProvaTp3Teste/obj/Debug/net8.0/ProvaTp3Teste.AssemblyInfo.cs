@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProvaTp3Teste")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86551ded4701a66b1c6c15345067819baafee07a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84205014b7a95ccf5e6e3d5ae6468e6b59bb26b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProvaTp3Teste")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProvaTp3Teste")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
